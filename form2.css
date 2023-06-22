@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-image: url('vac2.webp');
+    background-color: rgba(4, 42, 48, 0.573);
+    width: 95%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header{
+    background-image: url('vac.avif');
+    background-size: cover;
+    background-position: bottom;
+}
+header h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(219, 214, 200);
+    text-shadow: 0 5px 4px rgb(16, 15, 15);
+    font-family: 'Salsa';
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 20px;    
+}
+
+nav li{
+     display: inline-block;
+     font-weight: bold;
+     padding: 5px;
+     background-color: rgb(70, 130, 110);
+     margin: 5px;
+     border-radius: 5px;
+
+}
+
+nav a{
+    
+    color:rgb(234, 191, 191);
+    padding: 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+ #Contact{
+    color:rgb(175, 61, 23);
+    text-shadow: 0 0px 1px rgb(16, 15, 15);
+    font-weight: bold;
+   
+} 
+
+.contactMe{
+    text-align: center;
+}
+
+#heading{
+    margin: 5px;
+    font-size: 1.5rem;
+    color: rgb(130, 78, 11);
+    text-align: center;
+}
+
+label.info{
+     display:block; 
+
+}
+.fieldset1{
+    display: grid;
+    place-content: center;
+    
+}
+input.inputClass{
+    outline: none;
+    width:200px;
+    height: 40px; 
+    border: none;
+   
+}
+
+input[type="checkbox"],input[type="radio"]{
+    width:16px;
+    height: 16px;
+    
+}
+
+select.select{
+    outline: none;
+    width:200px;
+    height: 40px;
+    border: none;
+}
+
+ 
+textarea{
+    outline: none;
+}
+
+button{
+    outline: none;
+    width: 50px;
+    height: 50px;
+}
+
+
+@media screen and (min-width:576px){
+   
+   #Contact{
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    } 
+
+    .contactMe{
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(82, 134, 180);
+    }
+
+    #heading{
+        margin: 5px;
+        font-size: 3rem;
+        color:tomato;
+        text-shadow: 0 5px 4px rgb(16, 15, 15);
+        text-align: center;
+        font-weight: bold;
+    }
+}
